@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1, h2{
+	font: 50px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	display: flex;
+	justify-content: center;	
+}
+
+.wrapper {
+	margin: 0;
+	padding: 10px;
+	border: 6px solid mediumturquoise;
+}
+
+.box {
+	width: 290px;
+	height: 100px;
+	margin: 10px;
+	padding: 10px;
+	font: 28px "Marker Felt", "Zapfino", cursive;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.boxLeft {
+	float: left;
+	background-color: rgb(245, 130, 130);
+	outline: 2px solid darkred;
+}
+
+.boxRight {
+	background-color: #CBADDF;
+	outline: 4px dashed rgb(110, 20,120);
+	color: white;
+	text-decoration: underline wavy #88ff88;
+	text-shadow: 2px 2px 3px black;
+}
+
+.boxThree {
+	float: left;
+	background-color: #CBF0C9;
+	border: double #304F19 thick;
+	color: #437E43;
+	text-decoration: line-through;
+	text-decoration-style: dotted;
+	margin-left: 3px;
+}
+
+.box4 {
+	background-color: #8DE6ED;
+	border: thick inset;
+	margin: 20px;
+	color: #E9F573;
+}
+
+.myCoupon {
+	border: 6px solid mediumturquoise;
+	padding: 4px 6px;
+	font: 16px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+		
+}
+
+#output {
+	border: 6px solid mediumturquoise;
+	width: 290px;
+	height: 100px;
+	position: absolute;
+	left: 30%;
+	padding: 10px;
+	font: 28px "Marker Felt", "Zapfino", cursive;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
